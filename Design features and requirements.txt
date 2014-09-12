@@ -1,0 +1,37 @@
+Software Engineering Design 1 Assignment Three
+Due 5pm , Friday, 26th September 2014
+ 
+Purpose:  
+To make a trailer editor for audio and video files.
+
+Requirements:
+- Download a video
+- Strip out the audio
+- Replace the audio track
+- Overlay the audio on the existing audio track
+- Play the video with various volume controls (with or without audio)
+- Fast forward and backward through the file
+- Create title page(s)
+- Create a credits page(s) for the video
+
+Interface requirements:
+- Playback  and Manipulation Video/audio
+- Play either a video file or an audio file. This functionality should be achieved via a push buttons. You should be using the VLV Java library (vlcj).
+- Continuous fast forward and backward through the video / audio. 
+- Strip the audio off the video and save this audio to a file.
+- If there is no audio signal the user should be given a warning message.
+
+Basic text editing requirements:
+- The user should be able to add text to the opening and closing scenes of any video file.
+   They should be able to see the text on the image, and be able to edit it within VAMIX and be able to change the font, text size and colour 
+   (hint tools such as ffmpeg’s drawtext filter, or equivalent would be useful here)..
+- The user should be able to save any changes they have made to the video, so that the text is visible when played on any media player.
+- The text should be able to be editable, so a USER CAN RETURN TO a video file and continue working on the text.  
+- Maximum possible number of words for each screen – somewhere between 20-40 words 
+   (you should make it clear in your code what number you selected and why).  
+
+Easy of Use:
+- This interface has to be easy to use for a non technical person:
+- This includes the look and feel of the interface.
+- The read-ability of the interface.
+- The robustness of the interface.

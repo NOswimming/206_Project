@@ -1,0 +1,17 @@
+Keep it simple.
+
+Area for playing the video/audio (using vlcj).
+- Play the video with various volume controls (with or without audio)
+- Fast forward and backward through the file
+- If there is no audio signal the user should be given a warning message.
+
+If possible a timeline would be amazing but is probably too difficult.
+
+Buttons for all the key features:
+- Download a video
+- Strip out the audio from the video and save this audio to a file.
+- Replace the audio track
+- Overlay the audio on the existing audio track
+- Create title page(s)
+- Create a credits page(s) for the video
+
