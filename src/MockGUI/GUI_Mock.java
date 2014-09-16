@@ -1,3 +1,4 @@
+package MockGUI;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JMenuBar;
@@ -19,8 +20,14 @@ import javax.swing.JSlider;
 
 
 public class GUI_Mock extends JFrame {
+	
+	public static void main(String[] args){
+		new GUI_Mock();
+	}
+	
 	public GUI_Mock() {
 		setTitle("VAMIX");
+		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JMenuBar menuBar = new JMenuBar();
